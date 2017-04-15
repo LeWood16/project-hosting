@@ -182,7 +182,9 @@ background: url('https://dl.dropboxusercontent.com/s/qeujpu7grwcwit9/TwitchTV_ap
   background-size: 260px;
 }
 
-
+#pic{
+    background: url(img/profile.png) -40px -10px no-repeat;
+}
 
 a:hover{
   text-decoration: none;
@@ -190,51 +192,12 @@ a:hover{
 }
 
 
-/* desk */
-
-#desk{
-  position: relative;
-  max-width: 900px;
+.center{
   margin: 0 auto;
-  border-radius: 15px;
-  
+  text-align: center;
 }
 
-#desk > h2{
-  text-align: center;
+.symbol{
   color: #FFF;
-}
-
-.post-it{
-  border-radius: 0px 0px 20px 20px;
-  margin: 30px 10px 0px 20px;
-  border-top: 10px solid green;
-}
-
-
-.washi{
-  background: url('https://dl.dropboxusercontent.com/s/59w3v0p71y53phi/washi_%402X.png?dl=0');  
-}
-
-
-#container {
-  background: url('https://dl.dropboxusercontent.com/s/ugra4lsfusky4we/purty_wood_%402X.png?dl=0');
-
-  max-width: 900px;
-}
-
-.purtywood{
-  background: url('https://dl.dropboxusercontent.com/s/ugra4lsfusky4we/purty_wood_%402X.png?dl=0');
-}
-
-#current > h2{
-  text-align: center;
-}
-
-#MITs > h2{
-  text-align: center;
-}
-
-#done-bar > h2{
-  text-align: center;
+  font-size: 30px;
 }
