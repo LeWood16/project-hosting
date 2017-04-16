@@ -87,7 +87,7 @@ nav li:hover > ul{
   z-index: 1;
 }
 
-#tester > li {
+#contact > li {
     margin-left: -50px;
     text-align: left;
 }
@@ -101,7 +101,14 @@ nav, .banner {
 }
 
 
-#portfolio{
+#finished-projects{
+  text-align: center;
+  color: #FFF;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+#current-projects{
   text-align: center;
   color: #FFF;
   margin: 0 auto;
@@ -111,12 +118,12 @@ nav, .banner {
 
 /* project styling */
 
-#projects{
+.projects{
   border-radius: 15px;
   background-color: #999;
 }
 
-#projects > a {
+.projects > a {
   background-color: #000;
   min-width: 250px;
   min-height: 250px;
@@ -186,6 +193,12 @@ background: url('https://dl.dropboxusercontent.com/s/qeujpu7grwcwit9/TwitchTV_ap
     background: url(img/profile.png) -40px -10px no-repeat;
 }
 
+#dnd{
+  background: url(img/dnd.png) -24px -0px no-repeat;
+  background-size: 290px;
+  
+}
+
 a:hover{
   text-decoration: none;
   color: #FFF;
@@ -197,7 +210,12 @@ a:hover{
   text-align: center;
 }
 
-.symbol{
+.s-header{
   color: #FFF;
-  font-size: 30px;
+  text-align: center;
+}
+
+
+#skillset{
+  text-align: left;
 }
