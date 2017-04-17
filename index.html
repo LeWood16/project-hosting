@@ -21,33 +21,13 @@
     <body>
   
     <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-      
-          <li>
-            <a href="#">Contact</a>
-            <ul id="contact">
-              <li><a href="https://github.com/LeWood16" target="_blank">Github</a></li>
-              <li><a href="https://www.linkedin.com/in/luke-wood-232244127?trk=nav_responsive_tab_profile" target="blank">LinkedIn</a></li>
-              <li><a href="http://codepen.io/LeFonze/" target="_blank">CodePen</a></li>
-              <li><a href="https://www.facebook.com/luke.wood.792" target="_blank">Facebook</a></li>
-            </ul>
-          </li>
-      
-          <li>
-            <a href="#">Portfolio</a>
-            <ul id="">
-                <li class="page-scroll"><a href="#finished-projects">Finished</a></li>
-                <li class="page-scroll"><a href="#current-projects">Current</a></li>
-                <li class="page-scroll"><a href="#skillset">Skillset</a></li>
-            </ul>
-          </li>
+      <a href="#home" id="home-btn">Home</a></li>
+      <a href="#portfolio" id="portfolio-btn">Portfolio</a>
+      <a href="#contact" id="contact-btn">Contact</a>
+    </nav>
+    <div id="home"></div>
 
-        </ul>
-      </nav>
-  
-      <div class='banner'>
-    
+    <div class="banner">
       <div class='circle' id='pic'></div>
     
         <p>Front-End Developer / Occasional Back-End Tinkerer with a love for all things MEAN stack.  When I'm not learning magic [code] to make new spells [programs], I'm building apps and websites for the doers and dreamers in my life.
@@ -59,8 +39,8 @@
       </div>
   
       <br>
-  
-      <div id="finished-projects" class="banner">
+      <div id="portfolio">
+        <div id="finished-projects" class="banner">
         <h2>Some of my Finished Projects</h2>
     
         <div class="projects">
@@ -78,10 +58,8 @@
         </div>
  
       </div>
-      
-      <br>
-      
-      <div id="current-projects" class="banner">
+        <br>
+        <div id="current-projects" class="banner">
         <h2>Some Up-And-Coming Projects</h2>
     
         <div class="projects">
@@ -93,7 +71,8 @@
         </div>
  
       </div>
-
+      </div>
+      
         <h2 class="s-header">Skillset</h2>
 
       <div id="skillset" class="banner">
@@ -133,20 +112,26 @@
       </div>
 
 
-  
-
+            <ul id="contact">
+              <li><a href="https://github.com/LeWood16" target="_blank">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/luke-wood-232244127?trk=nav_responsive_tab_profile" target="blank">LinkedIn</a></li>
+              <li><a href="http://codepen.io/LeFonze/" target="_blank">CodePen</a></li>
+              <li><a href="https://www.facebook.com/luke.wood.792" target="_blank">Facebook</a></li>
+            </ul>
 
   
   
   
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    
+    <!-- internal script file -->
+    <script src="scripts.js"></script>
   
 </body>
