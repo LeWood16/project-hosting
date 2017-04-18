@@ -8,22 +8,28 @@
         <meta charset="utf-8"/>
         <meta content="initial-scale=1, width=device-width" name="viewport"/>
 
-        <!-- documentation at http://getbootstrap.com/, alternative themes at https://www.bootstrapcdn.com/bootswatch/ -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
         <link href="styles.css" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet">
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript"></script>
 
     </head>
+    
     <body>
     <div id="first-bg">
       <nav>
-        <a href="#first" id="about-btn">About</a></li>
-        <a href="#portfolio" id="portfolio-btn">Portfolio</a>
-        <a href="#contact" id="contact-btn">Contact</a>
+        <a href="#first" id="about-btn" class="col-xs-4">About</a>
+        <a href="#portfolio" id="portfolio-btn" class="col-xs-4">Portfolio</a>
+        <a href="#contact" id="contact-btn" class="col-xs-4">Contact</a>
       </nav>
       <div id="home"></div>
 
@@ -31,7 +37,10 @@
 
       <div id="first">
 
-          <p>Full-Stack developer with a love for all things MEAN stack.  When I'm not learning magic [code] to make new spells [programs], I'm building apps and websites for the doers and dreamers in my life.
+          <p>Full-Stack developer with a love for all things MEAN 
+          stack.  When I'm not learning magic [code] to make new 
+          spells [programs], I'm building apps and websites for the 
+          doers and dreamers in my life.
           </p>
       
           <br>
@@ -40,8 +49,7 @@
         </div>
     </div>
   
-      <br>
-      
+
     <div id="second-bg">
       <div id="portfolio">
         <div id="finished-projects" class="banner">
@@ -53,13 +61,10 @@
             <a href="http://codepen.io/LeFonze/full/MyRBNG/" target="_blank" id="wikiview"></a>
             <a href="http://codepen.io/LeFonze/full/YGzdXb/" target="_blank" id="pomodoro"></a>
             <a href="http://codepen.io/LeFonze/full/NxmMgx/" target="_blank" id="tribute"></a>
-
-      
             <a href="http://codepen.io/LeFonze/full/gPqXyO/" target="_blank" id="quotes"></a>
             <a href="http://codepen.io/LeFonze/full/WGbwNr/" target="_blank" id="tictactoe"></a>
             <a href="http://codepen.io/LeFonze/full/ALWybB/" target="_blank" id="simon"></a>
             <a href="http://codepen.io/LeFonze/full/jVxmeq/" target="_blank" id="twitchtv"></a>
-        
         </div>
  
       </div>
@@ -82,11 +87,10 @@
 
       <div id="contact-bg">
         <div id="contact">
-          <h2>Feel free to contact me anytime.</h2>
-              <a href="https://github.com/LeWood16" class="contact-btn" target="_blank">Github</a>
-              <a href="https://www.linkedin.com/in/luke-wood-232244127?trk=nav_responsive_tab_profile" class="contact-btn" target="blank">LinkedIn</a>
-              <a href="http://codepen.io/LeFonze/"class="contact-btn" target="_blank">CodePen</a>
-              <a href="https://www.facebook.com/luke.wood.792" class="contact-btn" target="_blank">Facebook</a>
+              <a href="https://github.com/LeWood16" class="col-xs-3" target="_blank">Github</a>
+              <a href="https://www.linkedin.com/in/luke-wood-232244127?trk=nav_responsive_tab_profile" class="col-xs-3" target="blank">LinkedIn</a>
+              <a href="http://codepen.io/LeFonze/" class="col-xs-3" target="_blank">CodePen</a>
+              <a href="https://www.facebook.com/luke.wood.792" class="col-xs-3" target="_blank">Facebook</a>
         </div>
       </div>
 
@@ -95,13 +99,7 @@
   
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-    
+  
     <!-- internal script file -->
     <script src="scripts.js"></script>
   
