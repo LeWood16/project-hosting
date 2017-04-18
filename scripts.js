@@ -7,7 +7,7 @@ $("#portfolio-btn").click(function() {
         'slow');
 });
 
-$("#home-btn").click(function() {
+$("#about-btn").click(function() {
     $('html,body').animate({
         scrollTop: $("#home").offset().top},
         'slow');

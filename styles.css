@@ -16,6 +16,7 @@ nav {
     position: fixed;
     background: #fff;
     z-index: 100;
+    opacity: 0.8;
 }
 
 nav > a {
@@ -30,16 +31,42 @@ nav > a {
   text-decoration: none;
 }
 
-a:focus{
+a:focus, a:hover{
   text-decoration: none;
   color: #FFF;
+  opacity: 1;
 }
 
 #home{
   height: 100px;
 }
 
+#first{
+  padding-top: 100px;
+  padding-bottom: 200px;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 900;
+  margin: 0 auto;
+  width: 80%;
+}
 
+#first-bg{
+  background: url("img/about_bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#second-bg{
+  background: url("img/projects_bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 
 .banner{
@@ -54,6 +81,10 @@ a:focus{
   min-height: 190px;
 }
 
+#portfolio{
+  opacity: 0.5;
+}
+
 
 .circle{
   height: 180px;
@@ -63,8 +94,8 @@ a:focus{
   position: relative;
   float: right;
   margin-left: 15px;
-  right: -3px;
-  top: -3px;
+  right: 5px;
+  top: -10px;
   z-index: 1;
 }
 
