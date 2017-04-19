@@ -2,6 +2,8 @@ body {
   font-size: 17px; 
   font-weight: 900;
   font-family: 'Lato', sans-serif;
+  background: url("img/pool_table.png"); 
+  background-repeat: repeat;
 }
 
 nav {
@@ -35,23 +37,6 @@ nav > a:hover, #contact > a:hover{
 #home{
   height: 100px;
 }
-
-
-
-#first-bg{
-  width: 100%;
-  background: url("img/about_bg.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 1000px;
-}
-
-#second-bg{
-  background: #000;
-}
-
 
 .banner{
   z-index: 1;
@@ -204,9 +189,16 @@ a:hover{
 }
 
 
-h2{
+
+h2 {
   text-align: center;
   color: #FFF;
   font-size: 2em;
+  font-weight: 900;
+}
+
+h3{
+  text-align: center;
+  color: #FFF;
   font-weight: 900;
 }
