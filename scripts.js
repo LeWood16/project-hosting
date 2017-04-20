@@ -18,3 +18,8 @@ $("#contact-btn").click(function() {
         scrollTop: $("#contact").offset().top},
         'slow');
 });
+
+$("#contact >").hover(function() {
+    var before = $(this).css("background-color");
+        $(this).css("background-color", "black");
+});
