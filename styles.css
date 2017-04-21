@@ -96,13 +96,6 @@ nav > a:hover, #contact > a:hover{
 }
 
 
-i {
-  font-size: 60px;
-}
-
-
-
-
 #finished-projects{
   text-align: center;
   margin-top: 20px;
@@ -135,6 +128,8 @@ i {
   border: 5px solid white;
 }
 
+
+
 .info {
   background: #000;
   color: #fff;
@@ -146,8 +141,8 @@ i {
 
 
 #weather{
-  background: url('img/projects/weather.png');
-  background-size: contain;
+  background: url('img/projects/weather.png') no-repeat;
+  background-size: 100%;
   width: 250px;
   height: 250px;
 }
@@ -169,7 +164,7 @@ background: url('https://dl.dropboxusercontent.com/s/boyccngys4hru5d/Screenshot%
 }
 
 #tribute{
-background: url('https://dl.dropboxusercontent.com/s/1quf008ytj2kkkv/Screenshot%202016-11-17%20at%2010.31.23%20PM.png?dl=0') 0px 10px no-repeat;
+background: url('https://dl.dropboxusercontent.com/s/1quf008ytj2kkkv/Screenshot%202016-11-17%20at%2010.31.23%20PM.png?dl=0') no-repeat;
   background-size: 250px;
 }
 
