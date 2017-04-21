@@ -1,5 +1,11 @@
 /* global $ */
 
+// this file handles all the page's animations
+
+
+$(document).ready(function(){
+   $(".info").hide(); 
+});
 
 $("#portfolio-btn").click(function() {
     $('html,body').animate({
@@ -19,7 +25,10 @@ $("#contact-btn").click(function() {
         'slow');
 });
 
-$("#contact >").hover(function() {
-    var before = $(this).css("background-color");
-        $(this).css("background-color", "black");
-});
+$(".projects > a").hover(function(){
+    $(this).filter(':not(:animated)').animate({ width: "275px", height: "275px" });
+    $(this).children().fadeIn(); 
+}, function() {
+    $(this).children().fadeOut(); 
+    $(this).animate({ width: "250px", height: "250px" });
+});       

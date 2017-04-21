@@ -103,21 +103,31 @@ nav > a:hover, #contact > a:hover{
 .projects > a {
   margin: 10px;
   background-color: #000;
-  min-width: 250px;
-  min-height: 250px;
-  max-width: 50%;
-  max-height: 50%;
+  width: 250px;
+  height: 250px;
   text-decoration: none;
   list-style-type: none;
   border-radius: 15px;
   display: inline-block;
   border: 5px solid white;
+  line-height: 30px;
+}
+
+.info {
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 15px;
 }
 
 
+
 #weather{
-  background: url('https://dl.dropboxusercontent.com/s/bqhamh6x544ujuh/Screenshot%202016-11-17%20at%208.41.39%20PM.png?dl=0') 38px 0px no-repeat;
+  background: url('img/projects/weather.png');
   background-size: contain;
+  width: 250px;
+  height: 250px;
 }
 
 #wikiview{
@@ -171,23 +181,20 @@ background: url('https://dl.dropboxusercontent.com/s/qeujpu7grwcwit9/TwitchTV_ap
 }
 
 #dnd{
-  background: url(img/dnd.png) -24px -0px no-repeat;
+  background: url(img/projects/dnd.png) -24px -0px no-repeat;
   background-size: 290px;
   
 }
 
-a:hover{
+a, a:hover{
   text-decoration: none;
   color: #FFF;
 }
-
-
 
 .center{
   margin: 0 auto;
   text-align: center;
 }
-
 
 
 h2 {
